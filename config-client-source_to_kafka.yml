@@ -1,3 +1,6 @@
+server:
+  port: 8181
+
 source-to-kafka-service:
   source-keywords:
     - Java
