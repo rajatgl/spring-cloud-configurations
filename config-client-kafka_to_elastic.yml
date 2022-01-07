@@ -1,6 +1,7 @@
 server:
   port: 8182
 
+kafka-to-elastic-service:
 kafka-config:
   bootstrap-servers: localhost:19092, localhost:29092, localhost:39092
   schema-registry-url-key: schema.registry.url
@@ -24,7 +25,7 @@ kafka-consumer-config:
   specific-avro-reader-key: specific.avro.reader
   specific-avro-reader: true
   batch-listener: true
-  auto-startup: false
+  auto-startup: true
   concurrency-level: 3
   session-timeout-ms: 10000
   heartbeat-interval-ms: 3000
