@@ -1,0 +1,15 @@
+server:
+  port: 8185
+
+twitter-stream-service:
+  source-keywords:
+    - Java
+    - Microservices
+    - Kafka
+    - Elasticsearch
+    - Logstash
+    - Kibana
+  enable-mock-tweets: true
+  mock-min-tweet-length: 5
+  mock-max-tweet-length: 15
+  mock-sleep-ms: 10000
